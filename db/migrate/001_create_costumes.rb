@@ -7,3 +7,4 @@ class CreateCostumes < ActiveRecord::Migration
       c.string :image_url
     end
   end
+end
