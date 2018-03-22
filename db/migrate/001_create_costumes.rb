@@ -1,10 +1,4 @@
 class CreateCostumes < ActiveRecord::Migration
-  def up
-  end
-
-  def down
-  end
-
   def change
     create_table :costumes do |c|
       c.string :name
